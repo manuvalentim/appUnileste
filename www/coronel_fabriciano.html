@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Starter Template - Materialize</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    
+    main {
+      flex: 1 0 auto;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .wrapper {
+      height: 100%;
+      min-height: 100%;
+      /* habilita o flex nos filhos diretos */
+      display: -ms-flex;
+      display: -webkit-flex;
+      display: flex;
+      /* centraliza na vertical */
+      -ms-align-items: center;
+      -webkit-align-items: center;
+      align-items: center;
+      /* centraliza na horizontal */
+      -ms-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+    
+    .wrapper div {
+      padding: 40px;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center">Unileste App</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div class="row">
+
+      <ul class="collapsible popout" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i><b>26 de Outubro - Programação Geral</b></div>
+          <div class="collapsible-body">
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="id">Horário</th>
+                  <th data-field="name">Atividade</th>
+                  <th data-field="price">Local
+                    <th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>8h às 12h</td>
+                  <td>
+                    <ul class="collection with-header">
+                      <li class="collection-item">
+                        <div class="row section">
+                          <div class="col">
+                            <!-- Modal Trigger -->
+                              <div>Minicursos<a href="#modal1" class="secondary-content modal-trigger"><i class="material-icons">send</i></a></div>
+                          </div>
+                        </div>
+                        <!-- Modal Structure -->
+                        <div id="modal1" class="modal">
+                          <div class="modal-content">
+                            <h5>Minicursos</h5>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th data-field="id">Horário</th>
+                                  <th data-field="name">Minicurso</th>
+                                  <th data-field="price">Local</th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <td>8h às 10</td>
+                                  <td>Dança de Salão</td>
+                                  <td>Salão Espelhado <b>D 104</b></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </td>
+                  <td>
+                    <li class="collection-item">Campus de Coronel Fabriciano e Ipatinga</li>
+                  </td>
+                </tr>
+                <tr>
+                  <td>19h às 20h15</td>
+                  <td>Apresentações dos resumos do curso e Educação</td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>20h30 às 22h</td>
+                  <td>Palestra: Educação Física Escolar Esp. Celina Gontijo Secretaria do Estado da Educação
+                  </td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>A definir</td>
+                  <td>Apresentações dos resumos do curso de Fisioterapia
+                  </td>
+                  <td>A definir</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i><b>27 de Outubro - Programação Geral</b></div>
+          <div class="collapsible-body">
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="id">Horário</th>
+                  <th data-field="name">Atividade</th>
+                  <th data-field="price">Local</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>08h às 12h e 19h às 22h30</td>
+                  <td>Minicursos</td>
+                  <td>Campus de Ipatinga</td>
+                </tr>
+                <tr>
+                  <td>08h às 12h</td>
+                  <td>Credenciamento</td>
+                  <td>Secretaria de cursos da Graduação</td>
+                </tr>
+                <tr>
+                  <td>19h às 22h30</td>
+                  <td>Apresentações Orais</td>
+                  <td>Campus Coronel Fabriciano e Ipatinga</td>
+                </tr>
+                <tr>
+                  <td>19h às 20h15</td>
+                  <td>Apresentação de resumos</td>
+                  <td>Sala de aula <b>E 304</b></td>
+                </tr>
+                <tr>
+                  <td>20h30 às 22h</td>
+                  <td>Palestra: Nutrição Esportiva <br> Nutricionista Mariane Martins</td>
+                  <td>Sala de aula <b> E 304 </b></td>
+                </tr>
+                <tr>
+                  <td>19h às 20h30</td>
+                  <td>Palestra: Gestão de Projetos Esportivos <br>Júlio César Jacques</td>
+                  <td>Sala de aula <b> E 306 </b></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>28 de Outubro</div>
+          <div class="collapsible-body">
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+  </main>
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text center-align">Unileste App</h5>
+          <p class="grey-text text-lighten-4 center-align">Obrigado por fazer parte do nosso aplicativo de qualidade colaborativa!</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center-align">
+        © 2016 Copyright - Desenvolvido por <a href="http://fcarvalho.org"><span class="brown-text text-brown">Fábio Carvalho</span></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script>
+      $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+  </script>
+  <script>
+     $(document).ready(function(){ // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal(); });
+    </script>
+</body>
+
+</html>
