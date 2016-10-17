@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Starter Template - Materialize</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+  <style>
+    body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    
+    main {
+      flex: 1 0 auto;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .wrapper {
+      height: 100%;
+      min-height: 100%;
+      /* habilita o flex nos filhos diretos */
+      display: -ms-flex;
+      display: -webkit-flex;
+      display: flex;
+      /* centraliza na vertical */
+      -ms-align-items: center;
+      -webkit-align-items: center;
+      align-items: center;
+      /* centraliza na horizontal */
+      -ms-justify-content: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+    }
+    
+    .wrapper div {
+      padding: 40px;
+    }
+
+    .collapsible-body, .collapsible-header{
+      padding:15px;
+    }
+  </style>
+
+
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper #1a237e indigo darken-4">
+        <a href="#!" class="brand-logo center">Unileste App</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+
+    <div class="row">
+
+      <ul class="collapsible popout" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">list</i><b>26 de Outubro - Programação Geral</b></div>
+          <div class="collapsible-body">
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="id">Horário</th>
+                  <th data-field="name">Atividade</th>
+                  <th data-field="price">Local
+                    <th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>8h às 12h</td>
+                  <td>
+                    <ul class="collection with-header">
+                      <li class="">
+                        
+                            <!-- Modal Trigger -->
+                            Minicursos<a href="#modal1" class="secondary-content modal-trigger"><i class="material-icons">search</i></a>
+                          
+                        
+                        <!-- Modal Structure -->
+                        <div id="modal1" class="modal">
+                          <div class="modal-content">
+                            <h5>Minicursos</h5>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th data-field="id">Horário</th>
+                                  <th data-field="name">Minicurso</th>
+                                  <th data-field="price">Local</th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <td>8h às 10h</td>
+                                  <td>Dança de Salão</td>
+                                  <td>Salão Espelhado <b>D 104</b></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </td>
+                  <td>
+                    <li class="collection-item">Campus de Coronel Fabriciano e Ipatinga</li>
+                  </td>
+                </tr>
+                <tr>
+                  <td>19h às 20h15</td>
+                  <td>Apresentações dos resumos do curso e Educação</td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>20h30 às 22h</td>
+                  <td>Palestra: Educação Física Escolar Esp. Celina Gontijo Secretaria do Estado da Educação
+                  </td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>A definir</td>
+                  <td>Apresentações dos resumos do curso de Fisioterapia
+                  </td>
+                  <td>A definir</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">list</i><b>27 de Outubro - Programação Geral</b></div>
+          <div class="collapsible-body">
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="id">Horário</th>
+                  <th data-field="name">Atividade</th>
+                  <th data-field="price">Local</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>08h às 12h e 19h às 22h30</td>
+                  <td>
+                    <ul class="collection with-header">
+                      <li class="">
+                        
+                          
+                            <!-- Modal Trigger -->
+                            <div>Minicursos<a href="#modal2" class="secondary-content modal-trigger"><i class="material-icons">search</i></a></div>
+                          
+                        
+                        <!-- Modal Structure -->
+                        <div id="modal2" class="modal">
+                          <div class="modal-content">
+                            <h5>Minicursos</h5>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th data-field="id">Horário</th>
+                                  <th data-field="name">Minicurso</th>
+                                  <th data-field="price">Local</th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <td>8h às 12h</td>
+                                  <td>Matemática na Educação Infantil - Resolução de Problemas</td>
+                                  <td>Laboratório <b>E 108</b> Sala de Aula <b> E 203</td>
+                                </tr>
+                                <tr>
+                                  <td>19h às 20h40</td>
+                                  <td>Prevenção de acidente domésticos</td>
+                                  <td>Sala de Aula <b>B 110</b> </td>
+                                </tr>
+                                <tr>
+                                  <td>19h às 22h</td>
+                                  <td>Noções de Bioestatística</td>
+                                  <td>Sala de aula <b>E 309</b></td>
+                                </tr>
+                                 <tr>
+                                  <td>21h às 22:35h</td>
+                                  <td>Fisioterapia no apoio contra o tabagismo</td>
+                                  <td>Sala de aula <b>B 110</b></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </td>
+                        <!-- Fim modal-->
+                  <td>Campus de Ipatinga</td>
+                </tr>
+                <tr>
+                  <td>08h às 12h</td>
+                  <td>Credenciamento</td>
+                  <td>Secretaria de cursos da Graduação</td>
+                </tr>
+                <tr>
+                  <td>19h às 22h30</td>
+                  <td>
+                    <ul class="collection with-header">
+                      <li class="">
+                        
+                            <!-- Modal Trigger -->
+                         <!--OLHAR ESSE ERRO AQUI-->  
+                         Apresentações Orais<a href="#modal3" class="secondary-content modal-trigger"><i class="material-icons">search</i></a>
+                          
+                        <!-- Modal Structure -->
+                        <div id="modal3" class="modal">
+                          <div class="modal-content">
+                            <h5>Apresentações em Banner</h5><!--E AQUI-->
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th data-field="id">Horário</th>
+                                  <th data-field="name">Título</th>
+                                  <th data-field="price">Autores</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Projeto de extensão em educação alimentar e nutricional em pediatria</td>
+                                  <td>Raabe Dias Ataides, Daiane Paula Mendes Pires, Mariane Oliveira Martins, Naiara Rochele Alves de Souza</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Adaptação transcultural e análise das propriedades de medida do exercises preference questionnaire (stroke)-Brasil</td>
+                                  <td>Lívia Cg Caetano, Luci F Teixeira-Salmela, Giane Amorin, Aline A Scianni</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Exercícios preferenciais em indivíduos crônicos após o acidente vascular encefálico</td>
+                                  <td>Lívia Cg Caetano, Bruna P Pacheco, Bruna N Lamego, Marisa R Gonçalves, Aline A Scianni</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Reconstrução de defeito crítico em maxila anterior utilizando proteína óssea morfogenética recombinante humana 2 (rhbmp-2) associada a esponja de colágeno absorvível</td>
+                                  <td>Regiane Brito de Assis, Marcelo Coessens da Silva, Bruno Ribeiro de Souza, Erika Storck Cezário, Maurício Greco Côsso</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Metodologias ativas no estudo da biologia da conservação através de métodos interdisciplinares</td>
+                                  <td>Marcos Vinícius Rodrigues, Gediendson Ribeiro de Araújo, Letícia Bergo Coelho Ferreira, Leanes Cruz da Silva, Antônio Carlos Csermak Junior, Tarcízio Antônio Rego Paula</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Atuação fisioterapêutica no tratamento multidisciplinar da criança com espectro autista: revisão de literatura</td>
+                                  <td>Bárbara Givisiéz Pereira, Angelise Mozerle, Grayzielle Emiliele Silva</td>
+                                </tr>
+                                 <tr>
+                                  <td>18:30</td>
+                                  <td>Autoconhecimento e prática de medidas preventivas do pé diabético: uma revisão</td>
+                                  <td>Leonardo Carvalho Silva, Karyne Honorato Duarte de Lima, Gisele Cristina Gomes da Silva, Cinthia Kelly C. de Oliveira Sabadini, Angelise Mozerle</td>
+                                </tr>
+                                 <tr>
+                                  <td>18:30</td>
+                                  <td>Estudo analítico transversal de indivíduos internados com infarto agudo do miocárdio em um hospital público da região leste de minas gerais</td>
+                                  <td>Angelise Mozerle, Debora Alves dos Santos, Heloisa Feca Correa</td>
+                                </tr>
+                                 <tr>
+                                  <td>18:30</td>
+                                  <td></td>
+                                  <td></td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Granuloma gravídico localizado na região lingual de mandíbula: relato de caso</td>
+                                  <td>Hosineyde Beatriz Carvalho, Bruce Gomes Lima, Enieverson Diniz Calixto, Wider Junio de Freitas Fernandes, Erika Storck Cezário</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Projeto de vida com adolescentes do ensino médio/td>
+                                  <td>Samara Luisi Rodrigues Moreira, Antônio Honório Ferreira</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Prováveis mecanismos de inibição da asma e atopias por antígenos do Shistosoma mansoni</td>
+                                  <td>Celio de Aquino, Leonardo de Araújo Lopes, Michele Faria Ramos</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Qualidade de vida e treinamento físico em indivíduos com doença pulmonar obstrutiva crônica (DPOC) e sua repercussão no teste de caminhada de seis minutos (TC6).</td>
+                                  <td>Angelise Mozerle, Tarley Sena, Marliane Reis</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Reabilitação oral de paciente portador de maloclusão classe III de Angle por meio de overdenture utilizando encaixe MK1</td>
+                                  <td>Vânia Lúcia de Oliveira Grossi, Rubens Nepomuceno Oliveira, Enieverson Diniz Calixto, Cíntia Patrícia Moreira Daniel, Bruno de Souza Ribeiro, Erika Storck Cezario</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Recobrimento radicular de recessão periodontal classe I de Miller por meio de cirurgia plástica periodontal</td>
+                                  <td>Bruce Gomes Lima, Ricardo Pereira Alvarenga Tadeu, Cíntia Patrícia Moreira Daniel, Marcelo Coessens Silva, Bruno de Souza Ribeiro, Erika Storck Cezario</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Palma forrageira: alimentando esperanças no nordeste brasileiro</td>
+                                  <td>Adriana Carvalho Rodrigues, Margarida Maria Higino de Jesus</td>
+                                </tr>
+                                <tr>
+                                  <td>18:30</td>
+                                  <td>Adaptação transcultural e análise das propriedades de medida do exercises preference questionnaire (stroke)-Brasil</td>
+                                  <td>Lívia C. G. Caetano, Luci F. Teixeira-Salmela, Giane Amorin, Aline A. Scianni</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </td>
+                  <td>Campus Coronel Fabriciano e Ipatinga</td>
+                </tr>
+                <tr>
+                  <td>19h às 20h15</td>
+                  <td>Apresentação de resumos</td>
+                  <td>Sala de aula <b>E 304</b></td>
+                </tr>
+                <tr>
+                  <td>20h30 às 22h</td>
+                  <td>Palestra: Nutrição Esportiva <br> Nutricionista Mariane Martins</td>
+                  <td>Sala de aula <b> E 304 </b></td>
+                </tr>
+                <tr>
+                  <td>19h às 20h30</td>
+                  <td>Palestra: Gestão de Projetos Esportivos <br>Júlio César Jacques</td>
+                  <td>Sala de aula <b> E 306 </b></td>
+                </tr>
+                <tr>
+                  <td>20h30 às 22h</td>
+                  <td>Palestra: Olimpíadas Rio 2016 <br> Msc. Flávia Costa</td>
+                  <td>Sala de aula <b> E 306 </td>
+                </tr>
+                <tr>
+                  <td>20h55</td>
+                  <td>Palestra: Atuação da Fisioterapia no Esporte<br>
+                      Membros da Liga Acadêmica Esportiva. <br>
+                      Convidados externos:<br>
+                      Fisioterapeuta Marcelo Simões Saliba<br>
+                      Fisioterapeuta Miguel Narkievicius Lima de Paula <br>
+                      Fisioterapeuta Marina Martins Pereira <br>
+                  </td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>20h55</td>
+                  <td>Palestra: Reflexões sobre o Estágio em Saúde Coletiva <br>
+                      Prof. Msc. Cristian de Souza Freitas
+                  </td>
+                  <td>A definir</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">list</i><b>28 de Outubro - Programação Geral</b></div>
+          <div class="collapsible-body">
+            <table>
+              <thead>
+                <tr>
+                  <th data-field="id">Horário</th>
+                  <th data-field="name">Atividade</th>
+                  <th data-field="price">Local
+                    <th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>8h às 12h e 19h às 22h30</td>
+                  <td>
+                    <ul class="collection with-header">
+                      <li class="">
+                        
+                            <!-- Modal Trigger -->
+                            Minicursos<a href="#modal4" class="secondary-content modal-trigger"><i class="material-icons">search</i></a>
+                          
+                        <!-- Modal Structure -->
+                        <div id="modal4" class="modal">
+                          <div class="modal-content">
+                            <h5>Minicursos</h5>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th data-field="id">Horário</th>
+                                  <th data-field="name">Minicurso</th>
+                                  <th data-field="price">Local</th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <td>19h às 21h</td>
+                                  <td>Doação de Sangue</td>
+                                  <td>Sala <b>D 107</b></td>
+                                </tr>
+                                <tr>
+                                  <td>19h às 22h</td>
+                                  <td>Técnicas de Taxidermia</td>
+                                  <td>Laboratório de Zoologia de Cordados </td>
+                                </tr>
+                                <tr>
+                                  <td>21h às 22h30</td>
+                                  <td>Transplante de orgãos</td>
+                                  <td>Sala <b>D 107</b></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </td>
+                  <td>
+                    <li class="collection-item">Campus de Coronel Fabriciano e Ipatinga</li>
+                  </td>
+                </tr>
+                <tr>
+                  <td>13h às 17h30</td>
+                  <td>Palestra: Avaliação do Discente Mediante o uso de Metodologias Ativas
+                      Público alvo: Docente do Curso de Fisioterapia, Diretoria e Coordenadores da Escola de Educação e Saúde, NUADE e Reitoria.
+                      Profª Drª Ana Maria Chagas Sette Camara
+                      Profª Msc. Márcia Luciane Drumond das Chagas e Vallone
+                  </td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>19h</td>
+                  <td>Palestra: Aplicação da CIF (Classificação Internacional de Funcionalidade) mediante o uso de metodologias  ativas - Parte I
+                      Público Alvo: acadêmicos do 8º ao 10º períodos do curso de Fisioterapia
+                      Profª Drª Ana Maria Chagas Sette Camara
+                      Profª Msc. Márcia Luciane Drumond das Chagas e Vallone
+
+                  </td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>19h</td>
+                  <td>Palestra: Prontuário - Aspectos legais Dr. Felipe Lannes Pacheco
+                  </td>
+                  <td>A definir</td>
+                </tr>
+                <tr>
+                  <td>20h55</td>
+                  <td>Palestra: Aplicação da CIF (Classificação Internacional de Funcionalidade) mediante o uso de metodologias  ativas - Parte II
+Público Alvo: acadêmicos do 8º ao 10º períodos do curso de Fisioterapia
+Profª Drª Ana Maria Chagas Sette Camara
+Profª Msc. Márcia Luciane Drumond das Chagas e Vallone
+                  </td>
+                  <td>Sala Ampliada</td>
+                </tr>
+                <tr>
+                  <td>20h55</td>
+                  <td>Palestra: Estímulo e Desenvolvimento Motor Neonatal
+Fisioterapeuta Renata de Freitas Pires
+Fisioterapeuta Thais Garcia da Silva
+                  </td>
+                  <td>A definir</td>
+                </tr>
+                <tr>
+                  <td>19h às 22h30</td>
+                  <td>
+                    <ul class="collection with-header">
+                      <li class="">                      
+                            <!-- Modal Trigger -->
+                            <div>Apresentações Orais<a href="#modal5" class="secondary-content modal-trigger"><i class="material-icons">search</i></a>                         
+                        <!-- Modal Structure -->
+                        <div id="modal5" class="modal">
+                          <div class="modal-content">
+                            <h5>Minicursos</h5>
+                            <table>
+                              <thead>
+                                <tr>
+                                  <th data-field="id">Curso</th>
+                                  <th data-field="name">Título</th>
+                                  <th data-field="price">Autores</th>
+                                  <th data-field="price">Local</th>
+                                  <th data-field="price">Horário</th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>DMetodologias ativas no estudo da biologia da conservação através de métodos interdisciplinares</td>
+                                  <td>Marcos Vinícius Rodrigues, Gediendson Ribeiro de Araújo, Letícia Bergo Coelho Ferreira, Leanes Cruz da Silva, Antônio Carlos Csermak Junior, Tarcízio Antônio Rego Paula,</td>
+                                  <td>Sala <b> B 211 </b></td>
+                                  <td>19h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Fauna bentônica córrego capivari alto do jequitinhonha MG</td>
+                                  <td>Ana Carolina Arantes Silva, Vithor Dantas Lopes, Alice Arantes Carneiro, Maysa Luitchia da Silva Almeida </td>
+                                  <td>Sala <b> B 211 </b></td>
+                                  <td>19h20 </td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Florística de angiospermas da trilha do juquita – parque estadual do Rio Doce, Timóteo - MG</td>
+                                  <td>Eliezer Oliveira Júnior Fernandes, Isabela Crespo Caldeira, Dayane Frossard</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>19h40</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Levantamento da bentofauna do alto do jequtinhonha MG</td>
+                                  <td>Vithor Dantas Lopes, Maysa Luitchia da Silva Almeida, Alice Arantes Carneiro, Ana Carolina Arantes Silva</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>20h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Levantamento populacional da mastofauna em fragmento de mata atlântica (parque estadual do rio doce) e avaliação da paisagem no entorno da unidade de conservação</td>
+                                  <td>Gabriel Miranda Lima de Freitas, Marcos Vinicius Rodrigues, Heraldo Eder Silva dos Anjos, Rangel Oliveira Silva, Herman Messina Ribeiro, Michelle Carvalho Maia</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>20h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Uso de jogos didáticos como ferramenta no processo ensino-aprendizagem</td>
+                                  <td>Gomes, Paula Celis Rocha; Brasil, Heloisa Neves, Lana, Isabela Cristina Souza, Everton de Oliveira, Carneiro, Alice Arantes Moreira, Iara Freitas Souza, Caldeira, Isabela Crespo Silveira, Ully Raissa Dias</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>21h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Análise do ciclo de vida dos seres vivos e as influências ambientais no desenvolvimento.</td>
+                                  <td>Renner Philipe Rodrigues Carva Carvalho, Luciana Marques Farias, Rutilaine Teixeira Gomes Santos, Walysson Mendes Gomes</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>21h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Briófitas da lagoa da juquita - parque estadual do rio doce (perd): florística e aspectos ecológicos.</td>
+                                  <td>Dayane Aline Frossard Nunes, Isabela Crespo Caldeira</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>21h40</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Efeito da imersão de fêmeas ingurgitadas de amblyomma cajennense (fabricius,1787) (acari: ixodidae) em água destilada sobre os parâmetros biológicos ligados à oviposição.</td>
+                                  <td>Wellerson Martins Souza Souza, Michelle Carvalho Maia</td>
+                                  <td>Sala <b>B 211</b></td>
+                                  <td>22h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Análise cromossômica de tramea abdominalis (libellulidae, odonata)</td>
+                                  <td>Pedro Henrique Ambrosio Nere, Ana Paula de Almeida Caixeiro</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>19h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Flebotomíneos (diptera: psychodidae) de fragmento florestal urbano, em Ipatinga - MG.</td>
+                                  <td>Walysson Mendes Gomes, Tania Gonsalves Santos</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>19h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Levantamento preliminar das borboletas diurnas do unileste, campus Ipatinga</td>
+                                  <td>Luana Costa Teodoro Machado, Tania Gonçalves dos Santos</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>19h40</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Libélulas (insecta: odonata) encontradas no viveiro de mudas da usiminas, em Ipatinga- MG</td>
+                                  <td>Laurianny Katharina Souza Moreira, Tania Gonçalves Santos</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>20h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Preservação da coleção entomológica do campus da unileste vale do aço</td>
+                                  <td>Pedro Henrique de Oliveira Silva, Tania Gonçalves dos Santos</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>20h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Vermicompostagem: uma estratégia para a reciclagem de resíduos sólidos orgânicos em ambiente urbano</td>
+                                  <td>Ana Paula de Almeida Caixeiro, Tania Gonçalves Santos, Davi Martins Bicalho, Luciana Marques Farias, Eliézer Fernandes Oliveira-Júnior, Lemuel Assunção Gariglio, Isabela Cristina Lana Santos, Rutilaine Teixeira Gomes Santos, Everton de Oliveira Souza, Maria Beatriz Figueredo Sicupira</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>21h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Anatomia do aparelho reprodutor masculino de odonatas (insecta) em remanescente florestal urbano de Ipatinga - MG</td>
+                                  <td>Matheus Guilherme Evangelista Sampaio, Ana Paula de Almeida Caixeiro</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>21h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Atividade de campo como uma metodologia ativa na formação discente.</td>
+                                  <td>Tania Gonçalves dos Santos, Ana Paula de Almeida Caixeiro</td>
+                                  <td>Sala <b>B 212</b></td>
+                                  <td>21h40</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Uso de modelos taxidermizados de vertebrados no ensino de ciências e biologia</td>
+                                  <td>Ana Carolina Arantes Silva, Daiana Soares dos Santos Aguiar, Davi Martins Bicalho, Dayane Patricia Paulucena, Diogo Andrade Lima Garcia, Filipe Araújo do Espírito Santo, Jeosan Pereira Costa, Laís Fernandes Silva Almeida, Larissa Ariel Dorneles, Larissa de Souza Paula, Luciana Alvarenga Soares Souza, Luiza Ramos Silva, Maria Beatriz Figueredo Sicupira, Matheus Guilherme Evangelista Sampaio, Nayara Karen Mendes Moraes, Priscila Silva Gomes, Samira Lorraine Pires Bhering, Samuel Iginio Souza Silva, Thales Felipe Silva Araujo, Vithor Dantas Lopes, Walysson Mendes Gomes, Cleber Ribeiro Junior</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>20h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Efeito da imersão em água destilada de fêmeas ingurgitadas de amblyomma cajennense (fabricius, 1787) (acari: ixodidae) durante o período de postura</td>
+                                  <td>Michelle, Carla Maia, Almeida</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>19h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Estudo da condição ambiental pelo levantamento da fauna bentônica das águas superficiais em microbacias experimentais com plantio de eucalipto em áreas da Cenibra S.A</td>
+                                  <td>MLuciana Marques Farias</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>20h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Etapas do biomonitoramento de qualidade de água em rios do médio Rio Doce- MG</td>
+                                  <td>Wallacy Filipe Rodrigues Soares, Alice Arantes Carneiro</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>20h40</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Fauna bentônica em curso d’água de pequena ordem no distrito de cocais das estrelas coronel Fabriciano - MG</td>
+                                  <td>Jeosan Pereira Costa</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>21h</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Informatização e digitalização da coleção de herpetofauna do laboratório de zoologia de cordados do unileste</td>
+                                  <td>Leonardo Correa Gomes, Cleber Ribeiro Junior</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>21h40</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Inventário de vespas sociais (hymenoptera, vespidae) em área antrópica e borda de fragmento florestal no leste de Minas Gerais</td>
+                                  <td>Larissa Ariel Dorneles, Cleber Ribeiro Junior</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>19h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Uso de macroinvertebrados bentônicos na avaliação da qualidade da água de rios em áreas de plantio de eucalipto, Coronel Fabriciano - MG</td>
+                                  <td>Valéria de Cássia Soares Nunes, Alice Arantes Carneiro</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>21h20</td>
+                                </tr>
+                                <tr>
+                                  <td>CCB</td>
+                                  <td>Levantamento da bentofauna do alto do jequtinhonha - MG</td>
+                                  <td>Vithor Dantas Lopes, Maysa Luitchia da Silva Almeida, Alice Arantes Carneiro, Ana Carolina Arantes Silva</td>
+                                  <td>Sala <b>B 213</b></td>
+                                  <td>21h40</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </td>
+                  <td>Campus de Coronel Fabriciano e Ipatinga</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+
+  </main>
+  <footer class="page-footer #283593 indigo darken-3">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h5 class="white-text center-align ">Unileste App</h5>
+          <p class="grey-text text-lighten-4 center-align">Obrigado por fazer parte do nosso aplicativo de qualidade colaborativa!</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright #1a237e indigo darken-4">
+      <div class="container center-align ">
+        © 2016 Copyright - Desenvolvido por <a href="http://fcarvalho.org"><span class="black-text text-brown">Fábio Carvalho</span></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script>
+      $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+  </script>
+  <script>
+     $(document).ready(function(){ // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal(); });
+    </script>
+</body>
+
+</html>

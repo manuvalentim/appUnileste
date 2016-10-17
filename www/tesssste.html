@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Starter Template - Materialize</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+        }
+        
+        main {
+            flex: 1 0 auto;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo center">Unileste App</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="collapsible popout" data-collapsible="accordion">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">store</i><b>26 de outubro - Programação Geral</b></div>
+                            <div class="collapsible-body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th data-field="id">Horário</th>
+                                            <th data-field="name">Atividade</th>
+                                            <th data-field="price">Local</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>8h às 12h</td>
+                                            <td>
+                                                <ul class="collection with-header">
+                                                    <li class="collection-item">
+                                                        <div class="row section">
+                                                            <div class="col">
+                                                                <!-- Modal Trigger -->
+                                                                <div>Minicursos
+                                                                    <a href="#modal1" class="secondary-content modal-trigger"><i class="material-icons">send</i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Modal Structure -->
+                                                        <div id="modal1" class="modal">
+                                                            <div class="modal-content">
+                                                                <h5>Minicursos</h5>
+                                                                <table>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th data-field="id">Horário</th>
+                                                                            <th data-field="name">Minicurso</th>
+                                                                            <th data-field="price">Local</th>
+                                                                        </tr>
+                                                                    </thead>
+
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>8h às 12h</td>
+                                                                            <td>Matemática em ação</td>
+                                                                            <td>Laboratório de Informática <b>F 101 e F 102</b></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>8h às 12h</td>
+                                                                            <td>Energia Solar fotovoltaica: Sustentabilidade,
+                                                                                Economia e Tecnologia</td>
+                                                                            <td>Sala <b>B 102</b></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>8h30 às 10h30</td>
+                                                                            <td>Iniciação Teatral: Jogando com o improviso</td>
+                                                                            <td>Sala de Artes</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <li class="collection-item">Campus de Coronel Fabriciano e Ipatinga</li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>8h às 12h</td>
+                                            <td>Credendciamento</td>
+                                            <td>Hall do Bloco B</td>
+                                        </tr>
+                                        <tr>
+                                            <td>8h às 12h40</td>
+                                            <td>
+                                                <ul class="collection with-header">
+                                                    <li class="collection-item">
+                                                        <div class="row section">
+                                                            <div class="col">
+                                                                <!-- Modal Trigger -->
+                                                                <div>Quarta com Lei: Apresentações Orais - Escola de Direito
+                                                                    <a href="#modal2" class="secondary-content modal-trigger"><i class="material-icons">send</i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Modal Structure -->
+                                                        <div id="modal2" class="modal">
+                                                            <div class="modal-content">
+                                                                <h5>Quarta com lei - Escola de Ciências Sociais e Aplicadas</h5>
+                                                                <table>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th data-field="id">Curso</th>
+                                                                            <th data-field="name">Título</th>
+                                                                            <th data-field="price">Autores</th>
+                                                                            <th data-field="price">Local</th>
+                                                                            <th data-field="price">Horário</th>
+                                                                        </tr>
+                                                                    </thead>
+
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>A concorrência entre estado e família no dever
+                                                                                de educar</td>
+                                                                            <td>Helienne Valéria Lima de Silva (Unileste), Gilce
+                                                                                A. QuintÃo Castro (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>8h</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Ações judiciais decorrentes das relações escolares</td>
+                                                                            <td>Davi Carvalho (Unileste), Gilce A. Quintão Castro
+                                                                                (Unileste)
+                                                                            </td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>8h15</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Cidadania como direito social</td>
+                                                                            <td>Rayane Gonçalves Peres (Unileste), Gilce A. Quintão
+                                                                                Castro (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>8h30</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Os direitos na contemporaneidade</td>
+                                                                            <td>Rayane Gonçalves Peres (Unileste); Gilce A. Quintão
+                                                                                Castro (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>8h45</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Responsabilidade civil dos notários e registradores</td>
+                                                                            <td>Dahyana Siman Carvalho da Costa (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>9h</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>A educação na transformação do homem</td>
+                                                                            <td>Cássia Araújo Jesus, Gilce A. Quintão Castro</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>9h15</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Educação como direito fundamental</td>
+                                                                            <td>Cássia Araújo de Jesus, Gilce A. Quintão Castro</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>9h30</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Contagem de prazo no novo CPC e reflexos nos
+                                                                                juizados especiais</td>
+                                                                            <td>Dahyana Siman Carvalho da Costa (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>9h45</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Desconsideração da personalidade jurídica na
+                                                                                execução fiscal</td>
+                                                                            <td>Dulce dos Anjos Souza Figueiredo (Unileste),
+                                                                                Dahyana Siman Carvalho da Costa (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>10h</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>A imprescritibilidade das ações de ressarcimento
+                                                                                ao erário</td>
+                                                                            <td>Mileni Martins de Andrade (Unileste), Serciane
+                                                                                Bousada Peçanha (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>10h15</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>A regularização fundiária como mecanismo de efetivação
+                                                                                do direito de moradia</td>
+                                                                            <td>Rafael Fernandes de Souza (Unileste), Serciane
+                                                                                Bousada Peçanha (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>10h30</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>A responsabilidade da administração pública pelo
+                                                                                crédito trabalhista na terceirização dos
+                                                                                seus serviços</td>
+                                                                            <td>Larissa Mota Lagares Pinto (Unileste), Serciane
+                                                                                Bousada Peçanha (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>10h45</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>A responsabilidade extracontratual do estado
+                                                                                e o poder de polícia</td>
+                                                                            <td>Thais Calhau Freitas (Unileste); Serciane Bousada
+                                                                                Peçanha (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>11h</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>CDR</td>
+                                                                            <td>Aspectos relevantes sobre os direitos dos candidatos
+                                                                                em concurso público</td>
+                                                                            <td>Cesar Antunes Gomes Castro (Unileste); Serciane
+                                                                                Bousada Peçanha (Unileste)</td>
+                                                                            <td>Auditório Padres do Trabalho</td>
+                                                                            <td>11h15</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td>Auditório Padres do Trabalho</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19h</td>
+                                            <td>Solenidade de Abertura: Grupo Taracatum - Teatro Universitário</td>
+                                            <td>Teatro João Paulo II</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19h30</td>
+                                            <td>Palestra de Abertura: Prof Ms. Eugenio Batista Leite <br> "A Ciência e o cuidado
+                                                com a Casa em Comum"</td>
+                                            <td>Teatro João Paulo II</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20h20</td>
+                                            <td>Apresentação Cultural</td>
+                                            <td>Teatro João Paulo II</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">place</i><b> 27 de Outubro - Programação Geral</b></div>
+                            <div class="collapsible-body">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th data-field="id">Horário</th>
+                                            <th data-field="name">Atividade</th>
+                                            <th data-field="price">Local
+                                                <th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td>8h às 12h</td>
+                                            <td>
+                                                <ul class="collection with-header">
+                                                    <li class="collection-item">
+                                                        <div class="row section">
+                                                            <div class="col">
+                                                                <!-- Modal Trigger -->
+                                                                <div>Minicursos
+                                                                    <a href="#modal3" class="secondary-content modal-trigger"><i class="material-icons">send</i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Modal Structure -->
+                                                        <div id="modal3" class="modal">
+                                                            <div class="modal-content">
+                                                                <h5>Minicursos</h5>
+                                                                <table>
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th data-field="id">Horário</th>
+                                                                            <th data-field="name">Minicurso</th>
+                                                                            <th data-field="price">Local</th>
+                                                                        </tr>
+                                                                    </thead>
+
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>8h às 10h</td>
+                                                                            <td>Dança de Salão</td>
+                                                                            <td>Salão Espelhado <b>D 104</b></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="modal-footer">
+                                                                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </td>
+                                            <td>
+                                                <li class="collection-item">Campus de Coronel Fabriciano e Ipatinga</li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>19h às 20h15</td>
+                                            <td>Apresentações dos resumos do curso e Educação</td>
+                                            <td>Sala Ampliada</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20h30 às 22h</td>
+                                            <td>Palestra: Educação Física Escolar Esp. Celina Gontijo Secretaria do Estado da
+                                                Educação
+                                            </td>
+                                            <td>Sala Ampliada</td>
+                                        </tr>
+                                        <tr>
+                                            <td>A definir</td>
+                                            <td>Apresentações dos resumos do curso de Fisioterapia
+                                            </td>
+                                            <td>A definir</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">place</i><b> 28 de Outubro - Programação Geral</b></div>
+                    <div class="collapsible-body">
+                        <p>Este bloco ainda não tem suporte</p>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h5 class="white-text center-align">Unileste App</h5>
+                    <p class="grey-text text-lighten-4 center-align">Obrigado por fazer parte do nosso aplicativo de qualidade colaborativa!</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                © 2016 Copyright - Desenvolvido por <a href="http://fcarvalho.org"><span class="brown-text text-brown">Fábio Carvalho</span></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script>
+      $('.datepicker').pickadate({
+    selectMonths: true, // Creates a dropdown to control month
+    selectYears: 15 // Creates a dropdown of 15 years to control year
+  });
+  </script>
+    <script>
+     $(document).ready(function(){ // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+  $('.modal-trigger').leanModal(); });
+    </script>
+</body>
+
+</html>
